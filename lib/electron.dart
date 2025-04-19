@@ -11,3 +11,14 @@ class Electron {
   Electron? _entangledElectron;
   
 }
+
+class Person {
+  String name = "Tobi";
+  int age = 17;
+
+  Person(this.name, this.age);
+   void info() {
+    print('Name: $name');
+    print('Age: $age');
+   }
+}
